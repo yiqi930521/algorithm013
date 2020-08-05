@@ -7,8 +7,8 @@
 
 2. 第二遍：
     - 马上直接写、默写(背诵 ，默写好的解法)
-    - 多种解法比较(看几个优秀答案，完了去掉cn直接去国际站看高票回答、进入discuss、most vctes排序)
-    - 体会、优化(优化核心思想：升维、空间换时间)
+    - 多种解法比较(**看几个优秀答案，完了去掉cn直接去国际站看高票回答、进入discuss、most vctes排序**)
+    - 体会、优化(**优化核心思想：升维、空间换时间**)
 3. 第三遍：
     - 24小时后，再重复做题
     - 不同解法的熟练程度，专项练习
@@ -35,21 +35,23 @@
 
 ### 数组arraylist
 
-1. 存储空间连续，查询的时间复杂度为O(1)
-2. 插入和删除的时间复杂度为O(n):造成后面元素的挪位  
+1. 存储空间连续，**查询**的时间复杂度为**O(1)**
+2. **插入和删除**的时间复杂度为**O(n**):造成后面元素的挪位  
 
 ### 链表linkedlist
 
-1. 修改（或删除）的效率高为O(1)
-2. 查询时间复杂度O(n)
+2. 只有**查询**时间复杂度**O(n)**,其他**增删改等**的效率高为均**O(1)**
 3. 结构：{current:val,next:nextElement}，从头指针入口，通过next指针访问其他元素
+3. 案列：**LRU缓存**
 
-### 跳表skip list (链表加速)
+### 跳表skip list (链表加速，**取代平衡树和二分查找**)
 
-1. 升纬度，空间换时间，二维，三维
-2. 查询时间复杂度为O(log n),从普通链表o(n)降到log2n的时间复杂度
-3. 维护成本较高,增加删除是logn
-4. 使用案例：redis、LRU缓存
+1. **升纬度，空间换时间，二维，三维**
+2. 只能用于有序链表
+3. **查询**时间复杂度为**O(log n)**对数级,从普通链表**o(n)**降到**log2n**的时间复杂度
+4. 维护成本较高,**增删改**是**logn**
+5. 使用案例：**redis**，不是红黑树和其他二叉树结构
+6. 空间复杂度O(n)
 
 ### 栈stack
 
@@ -81,16 +83,16 @@
 ## 每周习题
 
 1. 爬楼梯  
-  <https://leetcode-cn.com/problems/climbing-stairs/>
+    <https://leetcode-cn.com/problems/climbing-stairs/>
 2. 加一  
-  <https://leetcode-cn.com/problems/plus-one/>
+    <https://leetcode-cn.com/problems/plus-one/>
 3. 两数之和  
-  <https://leetcode-cn.com/problems/two-sum/>
+    <https://leetcode-cn.com/problems/two-sum/>
 4. 两两交换链表中的节点  
-  <https://leetcode-cn.com/problems/swap-nodes-in-pairs/>
+    <https://leetcode-cn.com/problems/swap-nodes-in-pairs/>
 5. 合并两个有序链表  
-  <https://leetcode-cn.com/problems/merge-two-sorted-lists/>
+    <https://leetcode-cn.com/problems/merge-two-sorted-lists/>
 6. 猜数字游戏  
-  <https://leetcode-cn.com/problems/bulls-and-cows/>
+    <https://leetcode-cn.com/problems/bulls-and-cows/>
 7. 设计循环双端队列  
-  <https://leetcode-cn.com/problems/design-circular-deque/>
+    <https://leetcode-cn.com/problems/design-circular-deque/>
