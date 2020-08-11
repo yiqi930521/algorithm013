@@ -129,7 +129,7 @@
 
      <https://leetcode-cn.com/problems/top-k-frequent-elements/ >
      
-### 图
+### 图（有点有边）
 1. 图的属性
    - Graph(V, E);
        - 1.度：入度和出度
@@ -146,3 +146,20 @@
 1. 基于图相关的算法
    - DFS - 递归写法
    - BFS
+1. 参考链接
+
+   - leetcode连通图个数  
+   
+     <https://leetcode-cn.com/problems/number-of-islands/>
+
+   - 拓扑排序（Topological Sorting）  
+   
+     <https://zhuanlan.zhihu.com/p/34871092>
+
+   - 最短路径（Shortest Path）  Dijkstra
+   
+     <https://www.bilibili.com/video/av25829980?from=search&seid=13391343514095937158>
+
+   - 最小生成树（Minimum Spanning Tree）
+   
+     <https://www.bilibili.com/video/av84820276?from=search&seid=17476598104352152051>
