@@ -52,7 +52,7 @@
 
      <https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/>
 
-   - 二叉树的最近公共祖先   
+   - 二叉树的最近公共祖先(老高频题)   
 
      <https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/>
 
