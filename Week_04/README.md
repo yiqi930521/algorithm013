@@ -6,11 +6,31 @@
    - 对于节点的访问顺序不限
    - 深度优先：depth first search
    - 广度优先：breadth first search
+1. dfs函数结构：
+    ```
+    /**
+     * $res 要返回结果
+     *
+     * @param 路径 ‘中间值’
+     * @param 选择列表
+     */
+    function dfs(路径,选择列表)
+    {
+        if(结束条件){
+            array_push($res,路径);
+        }
+    
+        foreach (选择列表 as 选择) {
+            选择 push
+            dfs(路径,选择列表);
+            撤销选择 pop
+        }
+    }
+    ```
 1. 函数结构：
     - ![Xnip2020-08-12_17-51-04](./src/dfs.jpg)
     - ![Xnip2020-08-12_17-51-04](./src/dfs2.jpg)
     - ![Xnip2020-08-12_17-51-04](./src/bfs.jpg)
-
 1. leetcode相关题
 
    - 二叉树的层序遍历  
