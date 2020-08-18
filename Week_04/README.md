@@ -18,6 +18,7 @@
     {
         if(结束条件){
             array_push($res,路径);
+            return;
         }
     
         foreach (选择列表 as 选择) {
