@@ -22,6 +22,16 @@ class Solution
      */
     function buildTree($preorder, $inorder)
     {
+        if (empty($inorder)) {
+            return null;
+        }
 
+        $root = new TreeNode($preorder[0]);
+        $index = array_search($preorder[0], $inorder);
+
+        $root->left = $this->buildTree(array_slice($preorder, 1, $index + 1), array_slice($inorder, 0, $index));
+        $root->right = $this->buildTree(array_slice($preorder, $index + 1), array_slice($inorder, $index + 1));
+
+        return $root;
     }
 }
