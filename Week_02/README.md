@@ -68,15 +68,15 @@
    
      <https://leetcode-cn.com/problems/binary-tree-inorder-traversal/>
 
-   - 有效的字母异位词
+   - 二叉树的前序遍历
 
      <https://leetcode-cn.com/problems/binary-tree-preorder-traversal/>
 
-   - 有效的字母异位词
+   - N 叉树的后序遍历
 
      <https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/ >
 
-   - 两数之和
+   - N 叉树的前序遍历
 
      <https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/>
    
