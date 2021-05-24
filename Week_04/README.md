@@ -28,6 +28,16 @@
         }
     }
     ```
+1. N叉树函数结构：
+```
+void traverse(TreeNode root) {
+    for (TreeNode child : root.childern)
+    // 前序遍历需要的操作
+    traverse(child);
+    // 后序遍历需要的操作
+}
+```
+
 1. 函数结构：
     - ![Xnip2020-08-12_17-51-04](./src/dfs.jpg)
     - ![Xnip2020-08-12_17-51-04](./src/dfs2.jpg)

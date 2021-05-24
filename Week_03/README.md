@@ -68,7 +68,7 @@
 
      <https://leetcode-cn.com/problems/permutations/>
 
-### 分治、回溯
+### 分治、回溯(dfs)
 
 1. 一种特殊的递归、复杂的递归
 1. 最优重复性：动态规划
@@ -91,6 +91,37 @@
     
     在最坏的情况下，回溯法会导致一次复杂度为指数时间的计算。
     ```
+    ```
+   private $this->_res = [];
+   
+   function solution()
+   {
+        $this->backTrack(路径,选择列表)；
+   }
+   
+  function backTrack(路径，选择列表)
+  {
+        if (满足条件) $this->res[] = 选择列表; return;
+
+        foreack(选择列表 as 列表) {
+            做选择
+            $this->backTrack(路径， 选择列表);
+            撤销选择
+        }
+  }
+   
+    result = []
+    def backtrack(路径, 选择列表):
+    if 满足结束条件:
+    result.add(路径)
+    return
+    
+        for 选择 in 选择列表:
+            做选择
+            backtrack(路径, 选择列表)
+            撤销选择
+   ```   
+
 2. leetcode相关题
     - Pow(x, n)  
     <https://leetcode-cn.com/problems/powx-n/>
